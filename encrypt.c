@@ -20,19 +20,19 @@ int main(int ac, char **av) {
 
     i = 0;
     j = 0;
-    ac = 42;
+    if (ac != 3) {
+        puts("Usage: ./encrypt <string> <key>");
+        exit(0);
+    }
     while (av[1][i]) {
         if (!isspace(av[1][i])) {
-            printf("%zu %d %c\n", j, i, av[1][i]);
             av[1][i] = encryptLetter(av[1][i], av[2][j]);
-            printf("%zu %d %c\n", j, i, av[1][i]);
             j++;
         }
-        if (j > strlen(av[2]))
+        if (!av[2][j])
             j = 0;
         i++;
     }
     puts(av[1]);
-    printf("%d\n", encryptLetter('n', 'n'));
     return 0;
 }

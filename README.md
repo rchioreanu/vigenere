@@ -1,2 +1,7 @@
 # vigenere
-Vigenere cipher
+
+Simple implementation of the Vigenere cipher
+
+##Project structure
+
+
