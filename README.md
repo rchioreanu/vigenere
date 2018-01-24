@@ -24,11 +24,9 @@ Ana are mere + alfabet => ayf asi fecj
 |A|a|a|
 |n|l|y|
 |a|f|f|
-| | ||
 |a|a|a|
 |r|b|s|
 |e|e|i|
-| | ||
 |m|t|f|
 |e|a|e|
 |r|l|c|
@@ -57,7 +55,7 @@ Programul(atât cel de criptare, cât și cel de decriptare) va rula după urmă
 >        if (!av[2][j])
 >            j = 0;
 >        i++;
->    }
+>        }
 
 Programul parcurge șirul care trebuie criptat și apelează funcția de criptare/decriptare
 pentru fiecare caracter care nu este spațiu cu caracterul aferent cheii. Resetează cheia
