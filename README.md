@@ -36,11 +36,11 @@ Ana are mere + alfabet => ayf asi fecj
 
 ## Structura proiectului
 
-.
-├── LICENSE
-├── Makefile
-├── README.md
-├── decrypt.c
+.\
+├── LICENSE\
+├── Makefile\
+├── README.md\
+├── decrypt.c\
 ├── encrypt.c
 
 ## Alegerea implementării
