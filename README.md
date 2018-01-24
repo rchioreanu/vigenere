@@ -21,7 +21,7 @@ Ana are mere + alfabet => ayf asi fecj
 
 |Fraza de criptat|Cheia de criptare|Rezultat|
 |---|---|---|
-|A|a|a|
+|A|a|A|
 |n|l|y|
 |a|f|f|
 |a|a|a|
